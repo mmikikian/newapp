@@ -3,7 +3,7 @@ Router.route('/', function () {
   this.layout('newappLayout');
 
   
-  this.render('components-m');
+  this.render('table-datatable-m');
 
   
   this.render('master-header', {to: 'mheader'});
@@ -11,12 +11,12 @@ Router.route('/', function () {
   this.render('master-aside2', {to: 'maside2'});
 });
 
-Router.route('/buttons.html', function () {
+Router.route('/cf-my-cases.html', function () {
   
   this.layout('newappLayout');
 
   
-  this.render('buttons-m');
+  this.render('cf-mycases');
 
   
   this.render('master-header', {to: 'mheader'});
@@ -24,15 +24,29 @@ Router.route('/buttons.html', function () {
   this.render('master-aside2', {to: 'maside2'});
 });
 
-Router.route('/icons.html', function () {
+Router.route('/table-datatable.html', function () {
   
   this.layout('newappLayout');
 
   
-  this.render('icons-m');
+  this.render('table-datatable-m');
 
   
   this.render('master-header', {to: 'mheader'});
   this.render('master-nav', {to: 'mnav'});
   this.render('master-aside2', {to: 'maside2'});
 });
+
+Router.route('/table-static.html', function () {
+  
+  this.layout('newappLayout');
+
+  
+  this.render('table-static-m');
+
+  
+  this.render('master-header', {to: 'mheader'});
+  this.render('master-nav', {to: 'mnav'});
+  this.render('master-aside2', {to: 'maside2'});
+});
+
