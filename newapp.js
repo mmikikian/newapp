@@ -3,7 +3,7 @@ Router.route('/', function () {
   this.layout('newappLayout');
 
   
-  this.render('table-datatable-m');
+  this.render('table-static-m');
 
   
   this.render('master-header', {to: 'mheader'});
