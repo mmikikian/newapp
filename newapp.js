@@ -7,7 +7,7 @@ Router.route('/', function () {
 
   
   this.render('master-header', {to: 'mheader'});
-  this.render('master-nav', {to: 'mnav'});
+  this.render('masternav', {to: 'mnav'});
   this.render('master-aside2', {to: 'maside2'});
 });
 
@@ -20,7 +20,7 @@ Router.route('/cf-my-cases.html', function () {
 
   
   this.render('master-header', {to: 'mheader'});
-  this.render('master-nav', {to: 'mnav'});
+  this.render('masternav', {to: 'mnav'});
   this.render('master-aside2', {to: 'maside2'});
 });
 
@@ -33,7 +33,7 @@ Router.route('/table-datatable.html', function () {
 
   
   this.render('master-header', {to: 'mheader'});
-  this.render('master-nav', {to: 'mnav'});
+  this.render('masternav', {to: 'mnav'});
   this.render('master-aside2', {to: 'maside2'});
 });
 
@@ -46,7 +46,8 @@ Router.route('/table-static.html', function () {
 
   
   this.render('master-header', {to: 'mheader'});
-  this.render('master-nav', {to: 'mnav'});
+  this.render('masternav', {to: 'mnav'});
   this.render('master-aside2', {to: 'maside2'});
 });
+
 
