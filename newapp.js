@@ -3,7 +3,7 @@ Router.route('/', function () {
   this.layout('newappLayout');
 
   
-  this.render('table-static-m');
+  this.render('cf-mycases');
 
   
   this.render('master-header', {to: 'mheader'});
@@ -50,4 +50,17 @@ Router.route('/table-static.html', function () {
   this.render('master-aside2', {to: 'maside2'});
 });
 
+
+Router.route('/components.html', function () {
+  
+  this.layout('newappLayout');
+
+  
+  this.render('components-m');
+
+  
+  this.render('master-header', {to: 'mheader'});
+  this.render('masternav', {to: 'mnav'});
+  this.render('master-aside2', {to: 'maside2'});
+});
 
