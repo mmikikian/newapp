@@ -5,10 +5,10 @@
        
           <section class="vbox">
 		  
-            <section class="scrollable padder">
+            <section class="scrollable padder" >
 			
-			<div class="col-sm-8 text-left">
-              <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+			<div class="col-sm-8 text-left" style = "height: 50px;">
+              <ul class="breadcrumb no-border no-radius b-b b-light pull-in" style = "height: 50px;">
                 <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="#">Casefolders</a></li>
                 <li><a href="#">My Cases</a></li>
@@ -18,16 +18,21 @@
 				
 			
 				<div class="col-sm-4 text-right">
-				 <select class="input-sm form-control input-s-sm inline v-middle">
+           <ul class="breadcrumb no-border no-radius b-b b-light pull-in" style = "height: 50px;margin-bottom: -;margin-bottom: -;margin-bottom: 1px;padding-top: 5px;padding-bottom: 5px;">
+				 <select class="input-sm form-control input-s-sm inline v-middle" style = "
+    height: 35px;
+    padding-top: 8px;
+    border-top-width: 1px;">
                       <option value="0">Client code</option>
                     </select>
+            </ul>
 					</div>
 						
 
 			  
 				<div class="col-lg-12">	
               <div class="m-b-md">
-                <h1 class="m-b-none">Casefolder - My Cases</h1>
+               <!-- <h1 class="m-b-none">Casefolder - My Cases</h1> -->
               </div>
              </div>
                 
@@ -36,7 +41,7 @@
                   Responsive Table
                 </header> -->
                 <div class="row wrapper">
-                  <div class="col-sm-2 m-b-xs">
+                  <div class="col-sm-2 m-b-xs" style = "padding-right: 0px;">
                     <select class="input-sm form-control input-s-sm inline v-middle">
                       <option value="0">Bulk action</option>
                       <option value="1">Delete selected</option>
@@ -66,90 +71,89 @@
                   <table class="table table-striped b-t b-light">
                     <thead>
                       <tr>
-                        <th width="20"><input type="checkbox"></th>
-                        <th class="th-sortable" data-toggle="class">Project
+                        <th width="10"><input type="checkbox"></th>
+                        <th width="10"><input type="checkbox"></th>
+                        <th class="th-sortable" data-toggle="class">CaseFolder Name
                           <span class="th-sort">
                             <i class="fa fa-sort-down text"></i>
                             <i class="fa fa-sort-up text-active"></i>
                             <i class="fa fa-sort"></i>
                           </span>
                         </th>
-                        <th>Task</th>
-                        <th>Date</th>
+                       <th class="th-sortable" data-toggle="class">Case Name
+                          <span class="th-sort">
+                            <i class="fa fa-sort-down text"></i>
+                            <i class="fa fa-sort-up text-active"></i>
+                            <i class="fa fa-sort"></i>
+                          </span>
+                        </th>
+                        <th class="th-sortable" data-toggle="class">Case Number
+                          <span class="th-sort">
+                            <i class="fa fa-sort-down text"></i>
+                            <i class="fa fa-sort-up text-active"></i>
+                            <i class="fa fa-sort"></i>
+                          </span>
+                        </th>
+                        <th class="th-sortable" data-toggle="class">Updated
+                          <span class="th-sort">
+                            <i class="fa fa-sort-down text"></i>
+                            <i class="fa fa-sort-up text-active"></i>
+                            <i class="fa fa-sort"></i>
+                          </span>
+                        </th>
+                        <th class="th-sortable" data-toggle="class">Docket Alerts
+                          <span class="th-sort">
+                            <i class="fa fa-sort-down text"></i>
+                            <i class="fa fa-sort-up text-active"></i>
+                            <i class="fa fa-sort"></i>
+                          </span>
+                        </th>
                         <th width="30"></th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td><input type="checkbox" name="post[]" value="2"></td>
-                        <td>Idrawfast</td>
-                        <td>4c</td>
-                        <td>Jul 25, 2013</td>
+                        <td><input type="checkbox" name="post[]" value="2"></td>
+                        <td>CF - Christopher Scott Mansolf and Lauren Walker Mansolf</td>
+                        <td>Christopher Scott Mansolf and Lauren Walker Mansolf</td>
+                        <td>1:15-bk-10877</td>
+                        <td>03/05/15 09:17 AM</td>
                         <td>
                           <a href="#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
                         </td>
                       </tr>
                       <tr>
                         <td><input type="checkbox" name="post[]" value="3"></td>
-                        <td>Formasa</td>
-                        <td>8c</td>
-                        <td>Jul 22, 2013</td>
+                        <td><input type="checkbox" name="post[]" value="3"></td>
+                        <td>CF - Letesha DeVanassa Smith</td>
+                        <td>Letesha DeVanassa Smith</td>
+                        <td>1:13-bk-00546</td>
+                        <td>03/03/15 12:53 AM</td>
                         <td>
                           <a href="#" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
                         </td>
                       </tr>
                       <tr>
-                        <td><input type="checkbox" name="post[]" value="4"></td>
-                        <td>Avatar system</td>
-                        <td>15c</td>
-                        <td>Jul 15, 2013</td>
+                        <td><input type="checkbox" name="post[]" value="2"></td>
+                        <td><input type="checkbox" name="post[]" value="2"></td>
+                        <td>CF - Christopher Scott Mansolf and Lauren Walker Mansolf</td>
+                        <td>Christopher Scott Mansolf and Lauren Walker Mansolf</td>
+                        <td>1:15-bk-10877</td>
+                        <td>03/05/15 09:17 AM</td>
                         <td>
                           <a href="#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
                         </td>
                       </tr>
                       <tr>
-                        <td><input type="checkbox" name="post[]" value="4"></td>
-                        <td>Throwdown</td>
-                        <td>4c</td>
-                        <td>Jul 11, 2013</td>
+                        <td><input type="checkbox" name="post[]" value="3"></td>
+                        <td><input type="checkbox" name="post[]" value="3"></td>
+                        <td>CF - Letesha DeVanassa Smith</td>
+                        <td>Letesha DeVanassa Smith</td>
+                        <td>1:13-bk-00546</td>
+                        <td>03/03/15 12:53 AM</td>
                         <td>
-                          <a href="#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><input type="checkbox" name="post[]" value="5"></td>
-                        <td>Idrawfast</td>
-                        <td>4c</td>
-                        <td>Jul 7, 2013</td>
-                        <td>
-                          <a href="#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><input type="checkbox" name="post[]" value="6"></td>
-                        <td>Formasa</td>
-                        <td>8c</td>
-                        <td>Jul 3, 2013</td>
-                        <td>
-                          <a href="#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><input type="checkbox" name="post[]" value="7"></td>
-                        <td>Avatar system</td>
-                        <td>15c</td>
-                        <td>Jul 2, 2013</td>
-                        <td>
-                          <a href="#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><input type="checkbox" name="post[]" value="8"></td>
-                        <td>Videodown</td>
-                        <td>4c</td>
-                        <td>Jul 1, 2013</td>
-                        <td>
-                          <a href="#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
+                          <a href="#" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
                         </td>
                       </tr>
                     </tbody>
@@ -162,7 +166,9 @@
                       <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small>
                     </div>
                     <div class="col-sm-4 text-right text-center-xs">                
-                      <ul class="pagination pagination-sm m-t-none m-b-none">
+                      <ul class="pagination pagination-sm m-t-none m-b-none" style = "
+    margin-top: 5px;
+    margin-bottom: 5px;">
                         <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
                         <li><a href="#">1</a></li>
                         <li><a href="#">2</a></li>
@@ -176,6 +182,6 @@
                 </footer>
               </section>
             </section>
-          </section>
+       </section>   
           
 </template>
